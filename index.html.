@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Senior | Web Developer</title>
+<meta name="description" content="Senior is a web developer building modern, responsive websites.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#0b1020;color:#f5f7ff;line-height:1.7}
+header{padding:22px 8%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:15px}
+.logo{color:#7c9cff;font-size:24px;font-weight:bold}
+nav a{color:#ccc;text-decoration:none;margin-left:20px}
+nav a:hover{color:#7c9cff}
+.hero{padding:100px 8% 80px;max-width:1100px;margin:auto}
+.tag{color:#7c9cff;font-weight:bold;letter-spacing:2px}
+h1{font-size:clamp(38px,7vw,70px);line-height:1.15;margin:20px 0}
+h1 span{color:#7c9cff}
+.hero p{color:#b6bfd7;max-width:650px;font-size:18px}
+.btn{display:inline-block;margin-top:25px;padding:12px 25px;background:#6385ff;color:white;text-decoration:none;border-radius:8px;font-weight:bold}
+.btn:hover{background:#4e70e9}
+section{padding:65px 8%;max-width:1100px;margin:auto}
+h2{font-size:32px;margin-bottom:25px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{background:#141b30;padding:25px;border:1px solid #25304c;border-radius:14px}
+.card h3{color:#91aaff;margin-bottom:12px}
+.card p{color:#bac3d8}
+.skills{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.skill{background:#202b49;color:#b8c8ff;padding:8px 14px;border-radius:7px}
+footer{text-align:center;padding:35px;color:#929bb2;border-top:1px solid #25304c;margin-top:30px}
+@media(max-width:600px){
+header{padding:20px 5%}
+nav a{margin-left:10px;font-size:14px}
+.hero{padding:70px 5%}
+section{padding:50px 5%}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">SENIOR.</div>
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero">
+<div class="tag">WEB DEVELOPER · KENYA</div>
+<h1>Building the web,<br><span>one project at a time.</span></h1>
+<p>Hello! I'm Senior, a web developer passionate about creating modern, responsive and useful websites for businesses and individuals.</p>
+<a class="btn" href="#projects">Explore My Work →</a>
+</div>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="card">
+<p>I'm a developer focused on building practical digital solutions. I work with HTML, CSS, JavaScript and Python Flask, and I'm continuously improving my skills through real projects.</p>
+<p style="margin-top:15px">My goal is to help businesses, individuals and organizations establish a professional online presence through affordable and effective web solutions.</p>
+</div>
+</section>
+
+<section id="skills">
+<h2>My Skills</h2>
+<div class="card">
+<p>Technologies and tools I work with:</p>
+<div class="skills">
+<span class="skill">HTML5</span>
+<span class="skill">CSS3</span>
+<span class="skill">JavaScript</span>
+<span class="skill">Python</span>
+<span class="skill">Flask</span>
+<span class="skill">Git & GitHub</span>
+<span class="skill">Responsive Design</span>
+<span class="skill">Website Deployment</span>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Featured Projects</h2>
+<div class="cards">
+
+<div class="card">
+<h3>Senior Tech Services</h3>
+<p>A technology services platform featuring business services and customer-facing pages.</p>
+<a class="btn" href="https://senior-tech-services.onrender.com" target="_blank" rel="noopener">Visit Website →</a>
+</div>
+
+<div class="card">
+<h3>Web Development</h3>
+<p>Responsive websites designed to help businesses establish a professional online presence.</p>
+</div>
+
+<div class="card">
+<h3>More Projects</h3>
+<p>More projects and creative work will be showcased here as I continue building.</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2>Let's Work Together</h2>
+<div class="card">
+<p>Need a website for your business, project or personal brand? Let's discuss your project and build something great.</p>
+<a class="btn" href="https://wa.me/254103560767" target="_blank" rel="noopener">Contact Me on WhatsApp</a>
+</div>
+</section>
+
+<footer>
+© 2026 Senior · Web Developer · Kenya
+</footer>
+
+</body>
+</html>
